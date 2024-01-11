@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* updated margin */
+    text-align: center;
+    background-color: #000000; /* perfect black background */
+    color: #ffffff;
+}
+
+.side-image {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: auto;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.center-content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.center-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+a {
+    color: #61dafb;
+}
