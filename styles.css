@@ -57,8 +57,17 @@ a {
 }
 
 /* Define styles for smaller screens (e.g., mobile devices in portrait orientation) */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .side-image {
         display: none; 
     }
 }
+
+/* Hide side images on high DPI devices (e.g., mobile devices in portrait orientation) */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 768px), 
+       (min-resolution: 192dpi) and (max-width: 768px) {
+    .side-image {
+        display: none; 
+    }
+}
+
