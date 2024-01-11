@@ -1,3 +1,4 @@
+/* Define styles for larger screens (e.g., tablets and desktops) */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -51,6 +52,13 @@ a {
 }
 
 .description {
-    margin: 10px 0;
+    margin: 10px 0; 
     color: #ffffff;
+}
+
+/* Define styles for smaller screens (e.g., mobile devices in portrait orientation) */
+@media screen and (max-width: 767px) {
+    .side-image {
+        display: none; 
+    }
 }
